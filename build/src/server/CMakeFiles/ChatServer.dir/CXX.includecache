@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/server/redis/redis.hpp
+hiredis/hiredis.h
+-
+thread
+-
+functional
+-
+
+/home/mzp/桌面/chatserver-master/src/server/redis/redis.cpp
+redis.hpp
+/home/mzp/桌面/chatserver-master/src/server/redis/redis.hpp
+iostream
+-
+
